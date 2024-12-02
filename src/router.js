@@ -57,6 +57,20 @@ const routes =  [
     name: "Propertydetails",
     component: () => import("./components/Propertydetails")
   },
+
+  {
+    path: "/Buyform",
+    alias: "/Buyform",
+    name: "Buyform",
+    component: () => import("./components/Buyform")
+  },
+
+  {
+    path: "/Rentform",
+    alias: "/Rentform",
+    name: "Rentform",
+    component: () => import("./components/Rentform")
+  },
 ];
 
 const router = createRouter({

@@ -4,9 +4,10 @@ class DataService {
   login(data) {
     return http.post("/clientlogin", data);
   }
-  // orders(uid) {
-  //   return http.get(`/orders/${uid}`);
-  // }
+  propertyList(type) {
+    return http.get(`/property?listing_type=${type}`);
+  }
+
   // ordertrack(uid) {
   //   return http.get(`/ordertrack/${uid}`);
   // }

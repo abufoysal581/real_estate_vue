@@ -18,7 +18,7 @@
             <ul
               class="js-clone-nav d-none d-lg-inline-block text-start site-menu float-end"
             >
-              <li class="active"><a href="http://127.0.0.1:8081/">Home</a></li>
+              <li class=""><a href="http://127.0.0.1:8081/">Home</a></li>
               <li class="has-children">
                 <a href="">Properties</a>
                 <ul class="dropdown">
